@@ -15,7 +15,7 @@
       //Creamos objeto de tirar dados y le pasamos los parametros de 0 y 12
       $tirar_dados = new dado(0,12);
 
-      for ($i=0; $i <= 12 ; $i++) {
+      for ($i=1; $i <= 12 ; $i++) {
         echo "Tirada nº $i : " . $tirar_dados->tirarDado() . "<br>";
       }
 
